@@ -1,36 +1,40 @@
 @import "tailwindcss";
 
 @theme {
-	/* Colors */
-	--color-gray-50: #f9fafb;
-	--color-gray-100: #f3f4f6;
-	--color-gray-200: #e5e7eb;
-	--color-gray-300: #d1d5db;
-	--color-gray-400: #9ca3af;
-	--color-gray-500: #6b7280;
-	--color-gray-600: #4b5563;
-	--color-gray-700: #374151;
-	--color-gray-800: #1f2937;
-	--color-gray-900: #111827;
-	--color-gray-950: #030712;
+	/* Zenbari Brand Colors - Hunter Greens */
+	--color-primary-50: oklch(0.982 0.018 155.826);
+	--color-primary-100: oklch(0.962 0.044 156.743);
+	--color-primary-200: oklch(0.925 0.084 155.995);
+	--color-primary-300: oklch(0.871 0.15 154.449);
+	--color-primary-400: oklch(0.792 0.209 151.711);
+	--color-primary-500: oklch(0.723 0.219 149.579);
+	--color-primary-600: oklch(0.627 0.194 149.214);
+	--color-primary-700: oklch(0.527 0.154 150.069);
+	--color-primary-800: oklch(0.448 0.119 151.328);
+	--color-primary-900: oklch(0.393 0.095 152.535);
+	--color-primary-950: oklch(0.266 0.065 152.934);
 
-    /* Seed Brand Colors */
-    --color-seed-dark: #1a3026;
-    --color-seed-darker: #13241c;
-    --color-seed-card: #243e32;
-    --color-seed-lime: #dcf09e;
-    --color-seed-beige: #f2f2ed;
-    --color-seed-black: #191919;
-    --color-seed-white: #ffffff;
-    --color-seed-green-hover: #2a4a3b;
+	/* Gray Scale */
+	--color-gray-50: oklch(0.985 0 0);
+	--color-gray-100: oklch(0.967 0.001 286.375);
+	--color-gray-200: oklch(0.92 0.004 286.32);
+	--color-gray-300: oklch(0.871 0.006 286.286);
+	--color-gray-400: oklch(0.705 0.015 286.067);
+	--color-gray-500: oklch(0.552 0.016 285.938);
+	--color-gray-600: oklch(0.442 0.017 285.786);
+	--color-gray-700: oklch(0.37 0.013 285.805);
+	--color-gray-800: oklch(0.274 0.006 286.033);
+	--color-gray-900: oklch(0.21 0.006 285.885);
+	--color-gray-950: oklch(0.141 0.005 285.823);
 
 	--font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+	--font-serif: "Playfair Display", Georgia, serif;
 }
 
 @layer base {
     body {
         font-family: var(--font-sans);
         -webkit-font-smoothing: antialiased;
-        color: var(--color-seed-black);
+        color: var(--color-gray-900);
     }
 }

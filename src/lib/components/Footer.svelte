@@ -6,21 +6,23 @@
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-24">
             <!-- Left: Brand & Newsletter -->
             <div class="lg:col-span-5">
-                <div class="flex items-center gap-1 mb-8">
-                    <span class="text-2xl font-bold tracking-tight">Seed</span>
-                    <div class="w-2.5 h-2.5 bg-white rounded-full mt-1"></div>
+                <div class="flex items-center gap-2 mb-8">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8">
+                        <path d="M12 2L13.2 9.92154L20.6603 7L14.4 12L20.6603 17L13.2 14.0785L12 22L10.8 14.0785L3.33975 17L9.6 12L3.33975 7L10.8 9.92154L12 2Z" fill="currentColor" />
+                    </svg>
+                    <span class="text-2xl font-serif tracking-tight">Zenbari</span>
                 </div>
                 
-                <h3 class="text-2xl md:text-[28px] font-medium leading-tight mb-8 max-w-md tracking-tight">
-                    Pioneering <span class="font-serif italic">microbiome science</span><br/> for human and planetary health<br/> since 2015.
+                <h3 class="text-2xl md:text-[28px] font-serif leading-tight mb-8 max-w-md tracking-tight">
+                    Transforming <span class="font-serif italic">parenthood anxiety</span><br/> into confidence through<br/> comprehensive doula services.
                 </h3>
                 
                 <div class="mb-4">
                     <p class="text-[11px] font-bold uppercase tracking-widest opacity-60 mb-2">
-                        Science with Seed—nerdy reads for your inbox.
+                        Join our community—maternal wellness insights for your inbox.
                     </p>
                     <p class="text-[11px] opacity-40 mb-6 font-light">
-                        By signing up you consent to receive Seed emails.
+                        By signing up you consent to receive Zenbari emails.
                     </p>
                     
                     <form class="flex items-center border border-white/20 rounded-full p-1 max-w-sm hover:border-white/40 transition-colors">
@@ -32,7 +34,7 @@
                 </div>
                 
                 <p class="text-[9px] opacity-30 mt-8 max-w-xs leading-relaxed">
-                    *These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.
+                    Zenbari means "love in the home"—encompassing both the body during pregnancy and your physical living space.
                 </p>
             </div>
 
@@ -40,37 +42,40 @@
             <div class="lg:col-span-7 grid grid-cols-2 md:grid-cols-4 gap-8">
                 <!-- Column 1 -->
                 <div>
-                    <h4 class="text-[10px] font-bold uppercase tracking-widest opacity-40 mb-6">Products</h4>
+                    <h4 class="text-[10px] font-bold uppercase tracking-widest opacity-40 mb-6">Services</h4>
                     <ul class="space-y-3 text-[13px] font-medium">
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">Shop All</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Birth Doula</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Postpartum Support</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Virtual Courses</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Fair Play</a></li>
                     </ul>
                 </div>
                 
                 <!-- Column 2 -->
                 <div>
-                    <h4 class="text-[10px] font-bold uppercase tracking-widest opacity-40 mb-6">About</h4>
+                    <h4 class="text-[10px] font-bold uppercase tracking-widest opacity-40 mb-6">Resources</h4>
                     <ul class="space-y-3 text-[13px] font-medium">
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">Science</a></li>
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">Sustainability</a></li>
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">SeedLabs</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Blog</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">City Guides</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Advocacy</a></li>
                     </ul>
                     
                     <h4 class="text-[10px] font-bold uppercase tracking-widest opacity-40 mb-6 mt-10">Social</h4>
                     <ul class="space-y-3 text-[13px] font-medium">
                         <li><a href="/" class="hover:opacity-70 transition-opacity">Instagram</a></li>
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">Twitter</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Facebook</a></li>
                         <li><a href="/" class="hover:opacity-70 transition-opacity">LinkedIn</a></li>
                     </ul>
                 </div>
                 
                 <!-- Column 3 -->
                 <div>
-                    <h4 class="text-[10px] font-bold uppercase tracking-widest opacity-40 mb-6">Inquire</h4>
+                    <h4 class="text-[10px] font-bold uppercase tracking-widest opacity-40 mb-6">About</h4>
                     <ul class="space-y-3 text-[13px] font-medium">
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">Partner</a></li>
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">Practitioners</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Meet Rachel</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Philosophy</a></li>
                         <li><a href="/" class="hover:opacity-70 transition-opacity">Press</a></li>
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">Join</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Events</a></li>
                     </ul>
                     
                     <h4 class="text-[10px] font-bold uppercase tracking-widest opacity-40 mb-6 mt-10">Legal</h4>
@@ -78,19 +83,17 @@
                         <li><a href="/" class="hover:opacity-70 transition-opacity">Terms + Conditions</a></li>
                         <li><a href="/" class="hover:opacity-70 transition-opacity">Privacy Policy</a></li>
                         <li><a href="/" class="hover:opacity-70 transition-opacity">Accessibility</a></li>
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">Consent Preferences</a></li>
                     </ul>
                 </div>
                 
                 <!-- Column 4 -->
                 <div>
-                    <h4 class="text-[10px] font-bold uppercase tracking-widest opacity-40 mb-6">Help</h4>
+                    <h4 class="text-[10px] font-bold uppercase tracking-widest opacity-40 mb-6">Connect</h4>
                     <ul class="space-y-3 text-[13px] font-medium">
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">Help</a></li>
                         <li><a href="/" class="hover:opacity-70 transition-opacity">Contact</a></li>
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">My Account</a></li>
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">International</a></li>
-                        <li><a href="/" class="hover:opacity-70 transition-opacity">Refer</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Book Call</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Newsletter</a></li>
+                        <li><a href="/" class="hover:opacity-70 transition-opacity">Testimonials</a></li>
                     </ul>
                 </div>
             </div>
@@ -99,16 +102,14 @@
         <!-- Bottom Graphic Text -->
         <div class="border-t border-white/10 pt-12 pb-12 relative">
              <div class="w-full flex justify-center">
-                 <!-- SVG Graphic for "Awaken Within" style text -->
-                 <svg viewBox="0 0 1000 200" class="w-full max-w-6xl text-[#F4F4F0] opacity-90 fill-current">
-                     <path d="M50,150 Q100,50 150,150 T250,150 T350,150" stroke="currentColor" stroke-width="20" fill="none" stroke-linecap="round" />
-                     <text x="500" y="150" text-anchor="middle" font-family="serif" font-style="italic" font-size="120" font-weight="bold" letter-spacing="-5">Awaken Within</text>
-                 </svg>
+                 <div class="text-center">
+                     <p class="text-4xl md:text-6xl font-serif italic text-white/20 tracking-tight">Love in the Home</p>
+                 </div>
              </div>
         </div>
         
         <div class="text-center text-[10px] opacity-30 font-medium tracking-wide">
-            © 2025 Seed (Seed Health, Inc.)
+            © 2025 Zenbari
         </div>
     </div>
 </footer>

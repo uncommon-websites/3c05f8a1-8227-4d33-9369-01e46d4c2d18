@@ -2,55 +2,67 @@
 </script>
 
 <section class="bg-white py-24">
-    <div class="container mx-auto px-6 md:px-12 text-center">
-        <h2 class="text-4xl md:text-[44px] leading-tight font-medium tracking-tight mb-4 text-[#191919]">
-            Over 1 million health<br/>
-            transformations (and counting).
-        </h2>
-        <p class="text-[13px] text-[#191919]/60 font-medium mb-16 tracking-wide">
-            See how real people are changing their health with Seed.
-        </p>
+    <div class="container mx-auto px-6 md:px-12">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl md:text-[44px] leading-tight font-serif tracking-tight mb-4 text-gray-900">
+                Transforming anxiety<br/>
+                into confidence.
+            </h2>
+            <p class="text-[13px] text-gray-600 font-medium tracking-wide">
+                Real stories from mothers who found their zen.
+            </p>
+        </div>
 
-        <!-- Video Carousel Placeholder -->
-        <div class="flex gap-6 overflow-x-auto pb-8 snap-x no-scrollbar items-center justify-center">
-            <!-- Card 1 (Large) -->
-            <div class="min-w-[80vw] md:min-w-[800px] aspect-video bg-[#F4F4F0] rounded-lg relative overflow-hidden group snap-center cursor-pointer shadow-xl">
-                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=1000&auto=format&fit=crop" alt="Testimonial" class="w-full h-full object-cover" />
-                <div class="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors"></div>
-                <div class="absolute bottom-8 left-8 text-white text-left">
-                    <h3 class="text-xl font-medium tracking-tight opacity-90">Seed®</h3>
+        <!-- Testimonials Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <!-- Testimonial 1 -->
+            <div class="bg-gray-50 rounded-2xl p-8 flex flex-col">
+                <div class="mb-6">
+                    <img src="/generated/image-new-mother-peacefully-holding-newborn-ba-1767054110157-3.webp" alt="LA Mother" class="w-full h-48 object-cover rounded-lg" />
                 </div>
-                <div class="absolute bottom-8 right-8 text-white text-right">
-                    <h3 class="text-xl font-medium tracking-tight">DS-01® Member Experiences</h3>
-                </div>
-                <div class="absolute top-6 right-6 text-white bg-black/20 p-2 rounded-full backdrop-blur-sm hover:bg-black/30 transition-colors">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                    </svg>
+                <p class="text-[15px] text-gray-700 leading-relaxed mb-6 flex-grow italic">
+                    "The day after the birth of my first child, my doctor declared that today less than 5% of women give birth naturally. I fully attribute my incredible natural birth experience to Rachel…"
+                </p>
+                <div class="border-t border-gray-200 pt-4">
+                    <p class="text-[11px] font-bold uppercase tracking-widest text-gray-900">First-Time Mother</p>
+                    <p class="text-[10px] text-gray-500 mt-1">Los Angeles, CA</p>
                 </div>
             </div>
-             <!-- Card 2 (Peek) -->
-             <div class="min-w-[300px] md:min-w-[400px] aspect-[9/16] md:aspect-video bg-[#F4F4F0] rounded-lg relative overflow-hidden group snap-center opacity-50 hidden md:block">
-                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1000&auto=format&fit=crop" alt="Testimonial" class="w-full h-full object-cover grayscale" />
-                 <div class="absolute inset-0 bg-black/20"></div>
-                 <div class="absolute bottom-8 left-8 text-white text-left">
-                    <h3 class="text-xl font-medium tracking-tight">Seed®</h3>
+
+            <!-- Testimonial 2 -->
+            <div class="bg-gray-50 rounded-2xl p-8 flex flex-col">
+                <div class="mb-6">
+                    <img src="/generated/image-expecting-couple-planning-together-at-ho-1767054118051-6.webp" alt="Miami Mother" class="w-full h-48 object-cover rounded-lg" />
+                </div>
+                <p class="text-[15px] text-gray-700 leading-relaxed mb-6 flex-grow italic">
+                    "Using Fair Play as part of baby prep has been so beneficial in creating more postpartum ease in our home."
+                </p>
+                <div class="border-t border-gray-200 pt-4">
+                    <p class="text-[11px] font-bold uppercase tracking-widest text-gray-900">Expecting Mother</p>
+                    <p class="text-[10px] text-gray-500 mt-1">Miami, FL</p>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="bg-gray-50 rounded-2xl p-8 flex flex-col">
+                <div class="mb-6">
+                    <img src="/generated/image-professional-doula-supporting-pregnant-w-1767054104946-1.webp" alt="NYC Father" class="w-full h-48 object-cover rounded-lg" />
+                </div>
+                <p class="text-[15px] text-gray-700 leading-relaxed mb-6 flex-grow italic">
+                    "My wife and I hired Rachel to be our doula for our first child. My wife went into labor on a Sunday night at 11pm when it was raining and Rachel was there within 10 minutes…"
+                </p>
+                <div class="border-t border-gray-200 pt-4">
+                    <p class="text-[11px] font-bold uppercase tracking-widest text-gray-900">New Father</p>
+                    <p class="text-[10px] text-gray-500 mt-1">New York, NY</p>
                 </div>
             </div>
         </div>
 
-        <!-- Controls -->
-        <div class="flex items-center justify-center gap-4 mt-8">
-            <button class="w-10 h-10 rounded-full bg-[#1A3026] text-white flex items-center justify-center hover:bg-[#243E32] transition-colors" aria-label="Pause video">
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
-                    <rect x="6" y="4" width="4" height="16" />
-                    <rect x="14" y="4" width="4" height="16" />
-                </svg>
-            </button>
-            <div class="flex items-center gap-3 text-[11px] font-bold uppercase tracking-widest bg-[#F4F4F0] pl-4 pr-1 py-1 rounded-full">
-                <span>▶ Zam</span>
-                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=100&auto=format&fit=crop" class="w-8 h-8 rounded-full object-cover" alt="Zam" />
-            </div>
+        <!-- CTA -->
+        <div class="text-center mt-16">
+            <a href="/" class="inline-flex items-center text-[13px] font-bold border-b-2 border-primary-600 pb-0.5 hover:border-primary-800 transition-colors tracking-wide uppercase text-primary-700 group">
+                Read More Stories <span class="ml-2 group-hover:translate-x-1 transition-transform">→</span>
+            </a>
         </div>
     </div>
 </section>
