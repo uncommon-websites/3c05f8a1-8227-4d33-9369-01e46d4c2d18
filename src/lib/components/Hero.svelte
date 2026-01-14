@@ -27,7 +27,7 @@
             </h1>
 
             <!-- Subtext -->
-            <p class="text-base md:text-lg text-white/90 mb-10 max-w-lg leading-relaxed font-light">
+            <p class="text-base md:text-lg text-white/90 mb-10 max-w-lg leading-[1.7] font-normal">
                 Comprehensive doula services and curated prenatal education. We make the invisible visible—so you never have to say "no one told me this."
             </p>
 
