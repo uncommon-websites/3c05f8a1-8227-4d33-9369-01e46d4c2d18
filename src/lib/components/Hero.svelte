@@ -21,7 +21,7 @@
             </span>
 
             <!-- Heading -->
-            <h1 class="text-[42px] md:text-[56px] lg:text-[64px] leading-[1.05] font-serif tracking-tight mb-6">
+            <h1 class="text-[52px] md:text-[72px] lg:text-[84px] leading-[1.05] font-serif tracking-tight mb-6">
                 Transform parenthood anxiety<br class="hidden md:block" />
                 into confidence
             </h1>
